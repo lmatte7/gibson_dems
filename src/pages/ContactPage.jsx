@@ -14,9 +14,11 @@ export function ContactPage() {
         <Left>
           <div style={{ padding: '2rem', fontFamily: 'Georgia, serif' }}>
             <H2>Contact Us</H2>
-            <IconLink href="mailto:gibsondemocrats@gmail.com">
-              <FaEnvelope />
-            </IconLink>
+            <IconRow>
+              <IconLink href="mailto:gibsondemocrats@gmail.com">
+                <FaEnvelope />
+              </IconLink>
+            </IconRow>
           </div>
 
 
