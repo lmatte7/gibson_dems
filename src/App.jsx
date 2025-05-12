@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { HomePage } from "./pages/HomePage";
 import { Page } from "./pages/GenericPage";
+import { ContactPage } from "./pages/ContactPage";
 
 export default function App() {
   return (
@@ -12,7 +13,7 @@ export default function App() {
         <Route path="/meetings-events" element={<Page title="Meetings & Events" />} />
         <Route path="/voter-info" element={<Page title="Voter Info" />} />
         <Route path="/donate" element={<Page title="Donate" />} />
-        <Route path="/contact" element={<Page title="Contact Details" />} />
+        <Route path="/contact" element={<ContactPage title="Contact Details" />} />
         <Route path="/indiana-democrats" element={<Page title="Indiana Democrats" />} />
       </Routes>
     </Router>

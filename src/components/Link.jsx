@@ -12,3 +12,12 @@ export const StyledLink = styled(Link)`
   text-align: center;
   text-decoration: none;
 `;
+
+
+export const IconLink = styled.a`
+  color: white;
+  text-decoration: none;
+  &:hover {
+  color: #ffcc00;
+  }
+`;
